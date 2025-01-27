@@ -1,0 +1,42 @@
+.main_table{
+    
+    background-color:#6700f7;
+    width:100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.th_box{
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 1px;
+    background-color:rgb(253, 145, 145);
+    margin-top: 10%;
+    height: 30px;
+    width: 100px;
+}
+.tdBox{
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 1px;
+    height: 30px;
+    background-color:rgb(118, 118, 255) ;
+    font-size: 20px;
+}
+.DBtn{
+            width: 150px;
+            background-color: rgb(228, 89, 89);
+            border-radius: 4px;
+            height: 30px;
+            margin-left: 3px;
+           
+}
+.UBtn{
+    width: 150px;
+    background-color: rgb(255, 255, 157);
+    border-radius: 4px;
+    height: 30px;
+    margin-left: 3px;
+
+ 
+}
+.heading-box{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(251, 210, 210);
+}

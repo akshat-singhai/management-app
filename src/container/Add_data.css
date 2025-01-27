@@ -1,0 +1,42 @@
+.main_container{
+                justify-items: center;
+                height: 590px;           
+                font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.field_container{
+         display: flex;
+         justify-content: space-between;
+         margin-top: 20px;
+}
+h4{
+    color: rgb(251, 210, 210);
+}
+.Field{
+    background-color:aliceblue;
+    width: 400px;
+    border: none;
+    border-radius:9px;
+    font-size: 22px;
+}
+.btn{
+    height:60px;
+    margin-top: 20px;
+    margin-left: 300px;
+    width: 110px;
+    font-size: 19px;
+    border: none;
+    border-radius: 13px;
+}
+.btn:hover{
+            background-color: rgb(255, 180, 159);
+            cursor: pointer;
+}
+.btn_box{
+            display: flex;
+            margin-left: 80px;
+}
+.heading{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(251, 210, 210);
+    margin-left: 90px;
+}
