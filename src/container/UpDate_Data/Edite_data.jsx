@@ -1,5 +1,6 @@
 import axios from 'axios'
 import React, { useEffect, useState } from 'react'
+import { ToastContainer, toast } from 'react-toastify';
 const Edite_data = () => {
     const [id,setId]=useState()
 const [userId,setUserId]=useState()
@@ -28,10 +29,14 @@ const UpDateHeandler=()=>{
              City:userCity,
              Employee_Post:userPost
            }
-        )       
+        )  
+        toast.success("Your Data is Updated",{
+          theme: "colored"
+        })     
 } 
 return (
     <div className='main_container'>
+      <ToastContainer />
        <h1 className='heading'>Update Your Employee Data </h1>
             <div className="field_box">
             <div className="field_container">
@@ -76,7 +81,7 @@ return (
                       </select>
                   </div>
                   <div className="btn_box">
-                    <button className='btn' onClick={UpDateHeandler()}>Update Data </button>
+                    <button className='btn' onClick={UpDateHeandler}>Update Data </button>
                   </div>
             </div>
     </div>

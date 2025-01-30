@@ -6,20 +6,21 @@ const show_data = () => {
     const getData=()=>{
     axios.get('https://678b2dd51a6b89b27a29b886.mockapi.io/Employee_management_app')
     .then((res)=>{
-      setData(res.data)  
+      setData(res.data) 
+ 
     });
    
   } 
   useEffect(()=>{
     getData()
-  },[data])
+  },[])
  
   return (
     <div className='diBox'>
        <h1 className='heading-box'>Current Employee Data  List</h1>
           <table className='main_table'>
                  <thead>
-                  <tr>
+                  <tr >
                     <th className='th_box'> Employee_Id </th>
                     <th className='th_box'> Name </th>
                     <th className='th_box'> Email </th>
@@ -33,7 +34,7 @@ const show_data = () => {
                   return(
                     <>
                     <tbody>
-                      <tr>
+                      <tr key={item.id}>             
                         <th className='tdBox'>{item.Employee_Id}</th>
                         <th className='tdBox'>{item.Name}</th>
                         <th className='tdBox'>{item.Email}</th>

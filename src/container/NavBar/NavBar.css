@@ -8,6 +8,7 @@
     border-radius: 18px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     width: 598px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
 .NavBox{
     float: left;
